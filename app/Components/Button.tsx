@@ -16,7 +16,7 @@ interface ButtonProps {
   iconColor?: string;
 }
 
-const Button = ({ type, title, icon, variant, onClick, iconColor }: any ) => {
+const Button = ({ type, title, icon, variant, onClick, iconColor }:any ) => {
   return (
     <button
       type={type}

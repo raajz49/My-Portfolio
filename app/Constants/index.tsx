@@ -1,4 +1,5 @@
 
+
 import { FaCss3Alt, FaGitAlt,FaLanguage, FaLinkedin, FaPhoneAlt,  FaReact } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 import { IoLogoHtml5, IoLogoInstagram, IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
@@ -44,4 +45,36 @@ export const FooterInfo=[
     {href:'https://www.linkedin.com/in/raam-adhikari-8341a4284/',Name:'Instagram',Icon:<IoLogoInstagram />},
     {href:'https://www.linkedin.com/in/raam-adhikari-8341a4284/',Name:'Linkedin',Icon:<FaLinkedin />},
     {href:'https://github.com/raajz49',Name:'Github',Icon:<FaSquareGithub />}
+]
+
+export const ProjectInfo=[
+
+    {
+        'Title':'A News Blogging site'
+        ,'Image':'/projectpic/project3.png',
+        'Description':'This setup ensures that the ProjectCard component is reusable and can handle any array of projects that follow the defined Project interface structure. You can replace the placeholder data with actual project information as needed.',
+        'href':'https://github.com/raajz49/Blogging-Site'
+    },
+
+
+    {
+    'Title':'A Bat Store',
+    'Image':'/projectpic/project.png',
+    'Description':'This setup ensures that the ProjectCard component is reusable and can handle any array of projects that follow the defined Project interface structure. You can replace the placeholder data with actual project information as needed.',
+     'href':'https://github.com/raajz49/Crickbat-Store'   
+},
+    
+    {
+        'Title':'A trip planner',
+        'Image':'/projectpic/project2.png',
+        'Description':'This setup ensures that the ProjectCard component is reusable and can handle any array of projects that follow the defined Project interface structure. You can replace the placeholder data with actual project information as needed.',
+        'href':'https://github.com/raajz49/Trek-planner'
+    },
+
+    {
+        'Title':'Linkedin Clone'
+        ,'Image':'/projectpic/project4.png',
+        'Description':'This setup ensures that the ProjectCard component is reusable and can handle any array of projects that follow the defined Project interface structure. You can replace the placeholder data with actual project information as needed.',
+        'href':'https://github.com/raajz49/linkedin-tailwindcss'
+    },
 ]
